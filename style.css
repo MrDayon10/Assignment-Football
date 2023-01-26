@@ -1,0 +1,248 @@
+
+    /* google font style */
+    
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=PT+Serif&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-family: 'PT Serif', serif;
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+/* first section start */
+.first-section{
+    background-color: rgb(0, 217, 255);
+    border-radius: 5px;
+    width: 1100px;
+    height: 550px;
+}
+.home-page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   justify-content: center;
+}
+.section-title{
+    padding: 25px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.section-img img{
+    height: 650px;
+}
+.pragrap,
+.watch-live{
+    font-size: 18px;
+}
+.watch-live:hover a{
+    background-color: rgb(69, 153, 227);
+    color: rgb(0, 217, 255);
+    border: solid 2px  aliceblue;
+}
+.section-title .watch-live a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid aliceblue 2px;
+    padding: 15px;
+    color: aliceblue;
+}
+/* first section end */
+
+
+/* second section start */
+.second-area,
+.second-area2{
+    margin-right: 10px;
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    gap: 1px;
+}
+.second-area2{
+    margin-top: 5px;
+}
+.nav-area,
+.nav-area2{
+    width: 290px;
+    height: 270px;
+    background-color: rgb(94, 210, 245);
+    border-radius: 5px;
+    margin: 5px;
+}
+.menus{
+    padding: 10px;
+}
+.menu{
+    margin: 30px;
+}
+.menus .menu a{
+    text-decoration: none;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+/* second page start */
+.all-matchs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.all-matchs2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 300px;
+}
+.match-1 {
+    display: grid;
+    flex-direction:column;
+    align-items: center;
+    border: 2px solid gray;
+    width: 240px;
+    height: 242px;
+    border-radius: 5px;
+    justify-content: center;
+    grid-column-gap: 1px;
+    margin-left: 50px;
+}
+
+.matchs{
+    display: flex;
+    flex-direction: row;
+}
+
+.match-1 img{
+    height: 50px;
+    width: 50px;
+    
+}
+.match-timimg{
+    justify-content: center;
+    
+}
+.third-area{
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 25px;
+}
+
+span{
+    color: black;
+    font-size: large;
+}
+
+.football-field{
+    width: 252px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.football-field2{
+    width: 252px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.football-field .play-football img{
+    width: 252px;
+    border-radius: 5px;
+}
+.football-field .football-detail a{
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 7px;
+    border-radius: 6px;
+    color: black;
+}
+.football-detail{
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+
+
+
+/* third section start */
+.view-all a{
+    text-decoration: none;
+    color: aqua;
+    padding: 10px 15px;
+    background-color: rgb(182, 41, 41);
+    border-radius: 5px;
+    
+}
+.view-all{
+    display: flex;
+    top: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 150px;
+}
+
+
+
+
+
+/* footer section start */
+footer{
+    background-color: rgb(94, 210, 245) ;
+    position: relative;
+    top: 200px;
+    height: 300px;
+    width: 1262px;
+}
+.footer-goal{
+    color: rgb(192, 6, 6);
+    top: 130px;
+}
+
+.footer-item,
+.footer-goal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-item a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.social-icon img{
+   width: 50px;
+   margin-left: 20px;
+}
+.social-icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   position: relative;
+   top: 40px;
+}
+hr{
+    border: solid 1px rgb(209, 209, 209);
+    margin: 0 40px;
+}
+
+
+
+
